@@ -1,23 +1,92 @@
 body {
-  font-family:Arial,Helvettica,sans-serif;
-  background-color:#333333;
-}
 
+    font-family:Arial,Helvettica,sans-serif;
+    background-color:#333333;
+  
+}
+/*add comments in css like this*/
 header {
 	width:80%;
 	background-color:black;
 	color:white;
 	margin-right:auto;
 	margin-left:auto;
-	padding:10px;
+	overflow:hidden;
+	border-color:white;
+	border-width:5px;
+	border-style:solid;
+	padding:5px;
+	border-radius:20px;
+	
+	
+	
+}
+
+h1 {
+	font-size:2em;
+	margin:0;
+	padding:0;
+	padding-top:10px;
+}   
+
+h2 {
+	font-size:1.6;
+}
+
+h3 {
+	font-size:1.3;
+	
+}
+
+hgroup {
+	width:70%;
+	float:left;
+	
+}
+
+hgroup h1 {
+	padding-top:0;
+	line-height:1em;
+}
+
+hgroup h2 {
+	text-transform:uppercase;
+	font-size:1.2em;
+	line-height:1em;
+	
+
+
+}
+
+
+nav {
+	width:30%;
+	float:right;
+}
+
+nav ul {
+	list-style-type:none;
+	
+}
+
+nav li {
+	float:left;
+	margin-right:5px;
 	
 }
 
 section {
+	
 	width:80%;
 	background-color:white;
 	margin-right:auto;
 	margin-left:auto;
+	border-color:black;
+	border-width:5px;
+	border-style:solid;
+	padding:5px;
+	border-radius:20px;
+
 	
 }
 
@@ -25,11 +94,38 @@ p {
  margin:10px;
 }
 
+p:first-letter {
+	font-size:3em;
+}
+
 footer {
+	opacity: 0.7;
+	filter: alpha(opacity=50); /*only works on IE8 and earlier*/
 	width:80%;
 	background-color:black;
 	color:white;
 	margin-right:auto;
 	margin-left:auto;
+	border-color:white;
+	border-width:5px;
+	border-style:solid;
+	padding:5px;
+	height:50px;
+	border-radius:20px;
+ 
+	
 	
 }
+
+img {
+	float:right;
+	margin:-17px -41px -1px 0px;
+    border-radius:10px;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+    padding: 5px;
+	width: 25%;
+	
+}
+
