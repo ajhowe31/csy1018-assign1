@@ -1,131 +1,155 @@
 body {
-
-    font-family:Arial,Helvettica,sans-serif;
-    background-color:#333333;
-  
+         font-family:Arial,Helvettica,sans-serif;
+         background-color:grey;
 }
-/*add comments in css like this*/
-header {
-	width:80%;
-	background-color:black;
-	color:white;
-	margin-right:auto;
-	margin-left:auto;
-	overflow:hidden;
-	border-color:white;
-	border-width:5px;
-	border-style:solid;
-	padding:5px;
-	border-radius:20px;
-	
-	
-	
+         /*add comments in css like this*/
+header  {
+	     width:80%;
+	     background-color:black;
+	     color:white;
+	     margin-right:auto;
+	     margin-left:auto;
+	     overflow:hidden;
+	     border-color:white;
+	     border-width:5px;
+	     border-style:solid;
+	     padding:5px;
+	     border-radius:20px;
+         box-shadow: 10px 10px 5px black;		 
 }
 
 h1 {
-	font-size:2em;
-	margin:0;
-	padding:0;
-	padding-top:10px;
+	     font-size:2em;
+	     margin:0;
+	     padding:0;
+	     padding-top:10px;
 }   
 
 h2 {
-	font-size:1.6;
+	     font-size:1.6;
 }
 
 h3 {
-	font-size:1.3;
+	     font-size:1.3;
 	
 }
 
 hgroup {
-	width:70%;
-	float:left;
-	
+	     width:70%;
+	     float:left;	
 }
 
 hgroup h1 {
-	padding-top:0;
-	line-height:1em;
+	     padding-top:0;
+	     line-height:1em;
 }
 
 hgroup h2 {
-	text-transform:uppercase;
-	font-size:1.2em;
-	line-height:1em;
-	
-
-
+	     text-transform:uppercase;
+	     font-size:1.2em;
+	     line-height:1em;
 }
 
 
 nav {
-	width:30%;
-	float:right;
+	     width:30%;
+	     float:right;
 }
 
 nav ul {
-	list-style-type:none;
-	
+	     list-style-type: none;	
+		 margin: 0;
+		 padding: 0;
 }
 
 nav li {
-	float:left;
-	margin-right:5px;
-	
+	     float: left;
+	     margin-right: 5px;	
+}
+li  {
+	     
 }
 
-section {
-	
-	width:80%;
-	background-color:white;
-	margin-right:auto;
-	margin-left:auto;
-	border-color:black;
-	border-width:5px;
-	border-style:solid;
-	padding:5px;
-	border-radius:20px;
+a:link, a:visited  {      
+         display: block;
+		 border-radius: 20px;
+         width: 120px;
+		 background-color:black;
+		 color: white;
+		 text-decoration: none;
+		 text-align: center;
+		 font-weight: bold;
+		 text-transform: uppercase;
+		 padding: 5px;
+		 cursor: pointer;
+		 transition: 0.9s 1s linear;/*the first '0.9s' is the speed, the second '1s' is the delay, the linear makes it transition go at a steady pace. 3 diff properties that can be used on there own*/
+		 
+}
 
-	
+a:hover, a:active  {
+	      background-color: grey;
+		  transform: rotate(360deg);/*transform the object into a spin*/
+}
+
+	    
+section { 
+         opacity: 0.9;
+		 filter: alpha(opacity=20);
+	     width:80%;
+	     background-color:white;
+	     margin-right:auto;
+	     margin-left:auto;
+	     border-color:black;
+	     border-width:5px;
+	     border-style:solid;
+	     padding:5px;
+	     border-radius:20px;
+         box-shadow: 10px 10px 5px black;		 
 }
 
 p {
- margin:10px;
+         margin:10px;
 }
 
 p:first-letter {
-	font-size:3em;
+	     font-size:3em;
 }
 
 footer {
-	opacity: 0.7;
-	filter: alpha(opacity=50); /*only works on IE8 and earlier*/
-	width:80%;
-	background-color:black;
-	color:white;
-	margin-right:auto;
-	margin-left:auto;
-	border-color:white;
-	border-width:5px;
-	border-style:solid;
-	padding:5px;
-	height:50px;
-	border-radius:20px;
+	     opacity: 0.7;
+	     filter: alpha(opacity=50); /*only works on IE8 and earlier*/
+	     width:80%;
+	     background-color:black;
+	     color:white;
+	     margin-right:auto;
+	     margin-left:auto;
+	     border-color:white;
+	     border-width:5px;
+	     border-style:solid;
+	     padding:5px;
+	     height:50px;
+	     border-radius:20px;
+		 box-shadow: 10px 10px 5px black;
  
 	
 	
 }
 
 img {
-	float:right;
-	margin:-17px -41px -1px 0px;
-    border-radius:10px;
-	border-width:1px;
-	border-style:solid;
-	border-color:white;
-    padding: 5px;
-	width: 25%;
+	     float:right;
+	     border-radius:10px;
+	     border-width:2px;
+	     border-style:solid;
+	     border-color:white;
+         padding: 5px;
+	     width: 25%;
+		 margin: auto;
+		 box-shadow: 10px 10px 5px silver;
+		 
+		
 	
 }
+
+
+
 

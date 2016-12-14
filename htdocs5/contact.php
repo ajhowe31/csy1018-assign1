@@ -1,0 +1,4 @@
+<?php
+WOULD LINK TO EMAIL IF ENABLED
+
+?>
