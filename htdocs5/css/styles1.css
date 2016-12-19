@@ -13,12 +13,7 @@ body{
     background: #FF5722;
 }
 
-//#wrapper  {
-	max-width: 1200px;
-	margin: 0 auto;
-	background-color: #fff;
-	padding:32px;
-}
+
 
 header  {
 	background-color: #FFAB91;
@@ -39,7 +34,7 @@ header h2  {
 	font-family: Lusitana;
 	font-variant: small-caps;
 	text-align: center;
-	color; #ffffff;
+	
 }
 	
 .wrapper{
