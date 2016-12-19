@@ -1,0 +1,83 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+i{
+	color: FFFFFF;
+}
+
+
+body{
+    background: #7C4DFF;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* menu base styles */
+nav{
+	/*for the actual size of writing and hovering box*/
+	background: #7B1FA2;
+	padding: 0px;
+	
+	
+	
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	border-bottom-style: solid;
+	border-color: #BDBDBD;
+	border-width: 0.1px;
+	
+	
+	
+}
+nav a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	display: block;
+	padding: 10px;
+	
+}
+nav a:hover{
+	background-color: #9C2780;
+
+
+	
+}
+/*facebook and twitter links*/
+
+	
+
+	
+/*flex styles*/
+@media screen and (min-width: 768px){
+	
+nav ul{
+	display: flex;
+	justify-content: center;
+	}
+	
+nav li{
+	flex: 2 3 0;/*the amount of space for the links to grow into*/
+	}
+	
+
+		
+}
+	
+/*end media 768*/
+
+
+
+
+
+
+
+

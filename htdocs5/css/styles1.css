@@ -1,0 +1,167 @@
+*   {    
+    font-family: verdana;
+    margin: 0;
+}
+
+
+i{
+	color: white;
+}
+
+
+body{
+    background: #FF5722;
+}
+
+//#wrapper  {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding:32px;
+}
+
+header  {
+	background-color: #FFAB91;
+	height:150px;
+	padding: 4px;
+}
+
+header h1  {
+	font-family: cantarell;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 50px;
+	
+}
+
+header h2  {
+	font-family: Lusitana;
+	font-variant: small-caps;
+	text-align: center;
+	color; #ffffff;
+}
+	
+.wrapper{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* menu base styles */
+nav{
+	/*for the actual size of writing and hovering box*/
+	background: #E64A19;
+	padding: 0px;
+	
+	
+	
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	box-shadow: 0 0 25px 0;
+	
+	
+	
+}
+nav a{
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	display: block;
+	padding: 10px;
+	
+}
+nav a:hover{
+	background-color: #FF8A65;
+
+
+	
+}
+/*facebook and twitter links*/
+
+	
+
+	
+/*flex styles*/
+@media screen and (min-width: 768px){
+	
+nav ul{
+	display: flex;
+	justify-content: center;
+	}
+	
+nav li{
+	flex: 2 3 0;/*the amount of space for the links to grow into*/
+	}
+	
+
+		
+}
+	
+/*end media 768*/
+
+
+
+
+ 
+       
+
+#form-wrap  {
+	         width: 700px;
+			 margin: auto;
+			 padding: 20px;
+			 box-shadow: 10px 10px 05px ;
+			 background-color: #BF360C;
+             		 
+             			 
+}
+
+form  {
+	         width: auto;
+			 padding: 0px;
+			 margin: 0px auto;
+			 background-color: #BF360C;
+			 
+}
+
+label  {
+	         display: block; 
+             margin: 5px 0 5px 20px;	
+             font: 25px sans-serif;
+             color: #eeeeee;
+			 
+}
+
+input  {
+	         height: 20px;
+	         width: 250px;
+			 background-color:#e0e0e0;
+			
+}            
+
+textarea  {
+	         height: 60px;
+	         width: 600px;
+			 BACKGROUND-COLOR: #e0e0e0;
+			 
+}
+
+fieldset  {
+	         border: none;
+			 padding-bottom: 40px;	
+            			 
+}
+
+.labelone  {
+	         margin-top: 5px;
+			 
+}
+
+form h4  {
+	         font: 25px sans-serif;
+			 color: #e0e0e0;
+			 margin: 19px;
+}
+
