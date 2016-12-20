@@ -4,21 +4,29 @@
 }
 
 
+/*icon styling*/
 i{
 	color: white;
 }
+/*end icon styling*/
 
 
+/*body styling*/
 body{
     background: #FF5722;
+	width: 100%;
 }
+/*end body styling*/
 
 
-
+/*header styling*/
 header  {
-	background-color: #FFAB91;
+	background-color: #FF5722;
 	height:150px;
-	padding: 4px;
+	padding: 25px;
+	width: 100%;
+	height: auto;
+	
 }
 
 header h1  {
@@ -36,18 +44,16 @@ header h2  {
 	text-align: center;
 	
 }
-	
-.wrapper{
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-}
+/*end header styling*/
 
-/* menu base styles */
+
+/* menu/nav base styling */
 nav{
 	/*for the actual size of writing and hovering box*/
-	background: #E64A19;
+	background: #FF8A65;
 	padding: 0px;
+
+	
 	
 	
 	
@@ -56,6 +62,7 @@ nav ul{
 	list-style-type: none;
 	padding: 0;
 	box-shadow: 0 0 25px 0;
+
 	
 	
 	
@@ -69,16 +76,75 @@ nav a{
 	
 }
 nav a:hover{
-	background-color: #FF8A65;
+	background-color: #FFAB91;
 
+
+	/*FF8A65*/
+}
+/*end of menu/nav styling*/
+
+
+/*grid styling*/
+#blocks{
+	margin: 20px;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+article{
+	background: #FFAB91;
+	margin-bottom: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
 
 	
 }
-/*facebook and twitter links*/
 
+article h1{
+	font-family: cantarell;
+}
+
+article h2{
+	font-family: Lusitana;
+    text-align: center;
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+p{
+	text-align: center;
+}
+/*grid end*/
+
+
+
+/*footer styles*/
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #FF5722;
+	padding: 18px;
+	border-top: 1px;
+	border-style: solid;
 	
 
+
 	
+	
+}
+
+
+	
+footer i{
+    color: black;
+
+
+}	
 /*flex styles*/
 @media screen and (min-width: 768px){
 	
@@ -94,15 +160,22 @@ nav li{
 
 		
 }
+
+#blocks{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+} 
+
+article{
+	flex: 0 1 32%;
+} 
+/*end flex/*
 	
 /*end media 768*/
 
 
-
-
- 
-       
-
+/*form styling*/     
 #form-wrap  {
 	         width: 700px;
 			 margin: auto;
@@ -159,4 +232,4 @@ form h4  {
 			 color: #e0e0e0;
 			 margin: 19px;
 }
-
+/*form styling end*/
