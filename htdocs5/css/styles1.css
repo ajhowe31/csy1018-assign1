@@ -1,6 +1,9 @@
 *   {    
     font-family: verdana;
     margin: 0;
+	padding: 0;
+
+
 }
 
 
@@ -15,6 +18,8 @@ i{
 body{
     background: #FF5722;
 	width: 100%;
+	overflow-x: hidden;
+	
 }
 /*end body styling*/
 
@@ -129,8 +134,9 @@ footer{
 	height: auto;
 	background-color: #FF5722;
 	padding: 18px;
-	border-top: 1px;
-	border-style: solid;
+	//border-top: 1px;
+	//border-style: solid;
+	
 	
 
 
