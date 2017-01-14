@@ -1,24 +1,30 @@
-*   {    
-    font-family: verdana;
+*  {    
+    font-family: cantarell, Lusitana;
     margin: 0;
 	padding: 0;
-
-
+	
 }
+
+
+
+
 
 
 /*icon styling*/
 i{
-	color: white;
+	color: black;
 }
 /*end icon styling*/
 
 
 /*body styling*/
 body{
-    background: #FF5722;
-	width: 100%;
+	font-family: Lustiana, Cantarell, Sans-serif;
+    width: 100%;
+	margin: 0;
+	padding: 0;
 	overflow-x: hidden;
+	background-color: #FFFFFF;
 	
 }
 /*end body styling*/
@@ -26,20 +32,20 @@ body{
 
 /*header styling*/
 header  {
-	background-color: #FF5722;
-	height:150px;
-	padding: 25px;
+	background-color: #0288D1;
+	padding: 10px;
 	width: 100%;
 	height: auto;
 	
 }
 
 header h1  {
-	font-family: cantarell;
+	font-family: Cantarell;
 	text-transform: uppercase;
 	text-align: center;
 	color: #FFFFFF;
 	line-height: 50px;
+	
 	
 }
 
@@ -49,20 +55,26 @@ header h2  {
 	text-align: center;
 	
 }
+h1{
+	font-family: Lusitana;
+	text-align: center;
+}
+
+h3{
+	font-family: Cantarell;
+	text-align: center;
+	
+}
 /*end header styling*/
 
 
-/* menu/nav base styling */
+/* menu/nav styling */
 nav{
-	/*for the actual size of writing and hovering box*/
-	background: #FF8A65;
+	background: #0288D1;
 	padding: 0px;
-
-	
-	
-	
 	
 }
+
 nav ul{
 	list-style-type: none;
 	padding: 0;
@@ -72,6 +84,7 @@ nav ul{
 	
 	
 }
+
 nav a{
 	text-decoration: none;
 	text-align: center;
@@ -81,37 +94,44 @@ nav a{
 	
 }
 nav a:hover{
-	background-color: #FFAB91;
+	background-color: #03A9F4;
 
 
-	/*FF8A65*/
+	
 }
 /*end of menu/nav styling*/
 
 
-/*grid styling*/
+/*grid/block/article styling starts here*/
+/*for this section of my css i took some inspiration from a website programmer named "net ninja" who provides a series of excellent videos on youtube regarding various aspects of html & css coding(of which i must have watched several hours of, i will include more info of this and other inspiring videos/sites in my readME file). I have not copied his work, but simply took some guidance/inspiration from his tutorials in order to create my 'own' style page. A link to the exact tutorial is as follows: https://www.youtube.com/watch?v=B_E6Kh9YkFM*/
 #blocks{
 	margin: 20px;
 }
 
 img{
 	width: 100%;
-	height: auto;
+	height: 350px;
 }
 
 article{
-	background: #FFAB91;
+	background: #BBDEFB;
 	margin-bottom: 5px;
 	padding: 10px;
 	box-sizing: border-box;
 	width: 100%;
 	height: auto;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: FFEB3B;
+	
 
 	
 }
 
+       
 article h1{
-	font-family: cantarell;
+	font-family: Cantarell;
 }
 
 article h2{
@@ -121,10 +141,18 @@ article h2{
 	margin: 10px 0;
 }
 
+iframe{
+	width: 100%;
+	height: 500px;
+	border: 0;
+	
+}
+
+
 p{
 	text-align: center;
 }
-/*grid end*/
+/*grid/block/article styles end here*/
 
 
 
@@ -132,19 +160,16 @@ p{
 footer{
 	width: 100%;
 	height: auto;
-	background-color: #FF5722;
-	padding: 18px;
-	//border-top: 1px;
-	//border-style: solid;
-	
-	
-
-
-	
-	
+	background-color: #FFFFFF ;
+	padding: 15px;
+    
 }
 
+footer img{
+	width: 80px;
+	height: 30px;
 
+}
 	
 footer i{
     color: black;
@@ -186,8 +211,8 @@ article{
 	         width: 700px;
 			 margin: auto;
 			 padding: 20px;
-			 box-shadow: 10px 10px 05px ;
-			 background-color: #BF360C;
+			 box-shadow: 10px 10px 5px ;
+			 background-color: #0288D1;
              		 
              			 
 }
@@ -196,7 +221,7 @@ form  {
 	         width: auto;
 			 padding: 0px;
 			 margin: 0px auto;
-			 background-color: #BF360C;
+			 background-color: #0288D1;
 			 
 }
 
@@ -204,7 +229,7 @@ label  {
 	         display: block; 
              margin: 5px 0 5px 20px;	
              font: 25px sans-serif;
-             color: #eeeeee;
+             color: #BBDEFB ;
 			 
 }
 
