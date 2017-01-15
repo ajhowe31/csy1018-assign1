@@ -1,67 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <meta charset="utf-8">
-    <title>Contact Form</title>
-    <link rel="stylesheet" type="text/css" href="css/styles1.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  
- <body>
-  <header>
-         
-            <h1>CONTACT PAGE</h1>
-            <h2>Andrew James Howe</h2>
-         
+   <head>
+      <meta charset="utf-8">
+      <title>Contact Form</title>
+      <link rel="stylesheet" type="text/css" href="css/styles1.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <header>
+         <h1>CONTACT PAGE</h1>
+         <h2>Andrew James Howe</h2>
       </header>
-    <div class="wrapper">
-
       <nav>
-        <ul>
-		   <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-           <li><a href="bio.html"><i class="fa fa-file-text" aria-hidden="true"></i> Biography</a></li>
-           <li><a href="cv.html"><i class="fa fa-folder-open" aria-hidden="true"></i> CV</a></li>
-		   <li><a href="https://www.facebook.com" class="fb"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-          <li><a href="https://www.twitter.com" class="tw"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-        </ul>
+         <ul>
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+            <li><a href="bio.html"><i class="fa fa-file-text" aria-hidden="true"></i> Biography</a></li>
+            <li><a href="cv.html"><i class="fa fa-folder-open" aria-hidden="true"></i> CV</a></li>
+            <li><a href="https://www.facebook.com" class="fb"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="https://www.twitter.com" class="tw"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+         </ul>
       </nav>
-	  <br>
-
-    </div>
-	
-	
-    <div id="form-wrap">
+      <hr>
+      <div id="form-wrap">
          <form action="contact.php" method="post">
-	         <fieldset>
-		         <h4>Contact me <i class="fa fa-envelope-open fa-1g" aria-hidden="true"></i></h4>
-				 
-		         <label class="labelone" for="name">Name <i class="fa fa-chevron-down"></i> </label>
-				 <input name="name"/>
-				 <label for="email">Email  <i class="fa fa-chevron-down" aria-hidden="true"></i> </label>
-				 <input name="email"/>
-				 <label for="comments">Please leave your message below <i class="fa fa-hand-o-down" aria-hidden="true"></i> </label>
-				 <textarea name="comments"></textarea>
-			 </fieldset>
-			 <fieldset>
-			 <input class="btn" type="submit" value="Send Email"/>
-			 <input class="btn" type="reset" value="Reset Form"/>
-             </fieldset>
-</form> 
-</div>
-
- 
-      
-         
-            
-        
-      
-
-
-	
-</body>
-
-  
-  </html>
-  
-  
+            <fieldset>
+               <img src="img/phone.png" alt="picture of me">
+               <h4>Tel:07807 498 233</h4>
+               <h4>Contact me <i class="fa fa-envelope-open fa-1g" aria-hidden="true"></i></h4>
+               <label class="labelone" for="name">Name <i class="fa fa-chevron-down"></i> </label>
+               <input name="name"/>
+               <label class="labeltwo" for="email">Email  <i class="fa fa-chevron-down" aria-hidden="true"></i> </label>
+               <input name="email"/>
+               <label class="labelthree" for="comments">Please leave your message below <i class="fa fa-hand-o-down" aria-hidden="true"></i> </label>
+               <textarea name="comments"></textarea>
+            </fieldset>
+            <fieldset>
+               <input class="btn" type="submit" value="Send Email"/>
+               <input class="btn" type="reset" value="Reset Form"/>
+            </fieldset>
+         </form>
+      </div>
+      <div>
+      </div>
+      <footer>
+         <p>
+            <img src="img/vcss-blue.gif" alt="Valid CSS!"/> 
+         </p>
+         <p><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2017</p>
+      </footer>
+   </body>
+</html>

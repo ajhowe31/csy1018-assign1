@@ -123,7 +123,7 @@ article{
 	border-radius: 10px;
 	border-style: solid;
 	border-width: 2px;
-	border-color: FFEB3B;
+	border-color: black;
 	
 
 	
@@ -190,7 +190,6 @@ nav li{
 	
 
 		
-}
 
 #blocks{ 
   display: flex;
@@ -202,30 +201,36 @@ article{
 	flex: 0 1 32%;
 } 
 /*end flex/*
-	
+
 /*end media 768*/
+}
 
-
-/*form styling*/     
+/*form styling*/ 
+  @media screen and (min-width: 768px){  
 #form-wrap  {
-	         width: 700px;
+	         width: auto;
 			 margin: auto;
 			 padding: 20px;
 			 box-shadow: 10px 10px 5px ;
-			 background-color: #0288D1;
+			 background-color: #BBDEFB;;
+			 border-style: solid;
+			 border-radius: 20px;
              		 
              			 
 }
 
 form  {
 	         width: auto;
+			 height: auto;
+			 
 			 padding: 0px;
 			 margin: 0px auto;
-			 background-color: #0288D1;
+			 background-color: #BBDEFB;;
 			 
 }
 
 label  {
+	         
 	         display: block; 
              margin: 5px 0 5px 20px;	
              font: 25px sans-serif;
@@ -236,31 +241,55 @@ label  {
 input  {
 	         height: 20px;
 	         width: 250px;
-			 background-color:#e0e0e0;
+			 background-color: white;
 			
 }            
 
 textarea  {
 	         height: 60px;
 	         width: 600px;
-			 BACKGROUND-COLOR: #e0e0e0;
+			 BACKGROUND-COLOR: white;
 			 
 }
 
 fieldset  {
 	         border: none;
 			 padding-bottom: 40px;	
+			 
+			
             			 
 }
-
+fieldset img{
+	         width: 350px;
+			 position: absolute;
+			 right: 100px;
+}
 .labelone  {
 	         margin-top: 5px;
+			 color: black;
 			 
+}
+.labeltwo{
+	        color: black;
+}
+.labelthree{
+	        color: black;
+}
+.btn{
+	        color: black;
+			text-transform: uppercase;
+			font-size: 15px;
+			
+}
+form h1{
+	         color: black;
 }
 
 form h4  {
 	         font: 25px sans-serif;
-			 color: #e0e0e0;
+			 color: black;
 			 margin: 19px;
 }
+
+  }
 /*form styling end*/
