@@ -1,3 +1,4 @@
+/*code created by Andrew Howe 10322179*/
 *  {    
     font-family: cantarell, Lusitana;
     margin: 0;
@@ -249,6 +250,8 @@ textarea  {
 	         height: 60px;
 	         width: 600px;
 			 BACKGROUND-COLOR: white;
+			 font-size: 20px;
+			 font-family: cantarell;
 			 
 }
 
